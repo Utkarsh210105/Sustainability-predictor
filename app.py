@@ -24,7 +24,7 @@ if st.button("Predict"):
     
 # Display output
     if prediction[0] == 1:
-        st.success("W")
+        st.success("Sustainable")
     
     else:
-        st.info("L")
+        st.info("Not Sustainable")
